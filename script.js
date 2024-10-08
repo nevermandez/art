@@ -1,4 +1,4 @@
-// G// Sørg for at registrere ScrollTrigger-pluginet
+// Sørg for at registrere ScrollTrigger-pluginet
 gsap.registerPlugin(ScrollTrigger);
 
 // GSAP animation for the sun on the homepage
