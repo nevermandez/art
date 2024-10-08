@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Forside med SVG-animeret sol -->
+  <div id="container">
+    <svg id="sun" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="50" fill="yellow" />
+    </svg>
+    <div id="counter">0</div>
+  </div>
+
+  <!-- Art Sektion -->
+  <section id="art">
+    <img src="yourimage.jpg" class="content-item" alt="Art image">
+    <video src="yourvideo.mp4" class="content-item" loop muted autoplay></video>
+  </section>
+
+  <!-- Words Sektion -->
+  <section id="words">
+    <img src="yourimage.png" class="content-item" alt="Words image">
+    <video src="yourvideo.mp4" class="content-item" loop muted autoplay></video>
+  </section>
+
+  <!-- Design Sektion -->
+  <section id="design">
+    <img src="yourimage.gif" class="content-item" alt="Design image">
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
